@@ -11,11 +11,16 @@
 +                                               +
 +               Any one Can Use                 +
 +            This JAVASCRIPT class              +
-+          But CITATION is required             +
++    By acknowledging  the creator of library   +
 +                                               +
 +++++++++++++++++++++++++++++++++++++++++++++++*/
 
-;(function(window){
+ /****
+  *   How to use?
+  //  Very Simple
+ // 	footer.init(document.getElementById("ID_OF_ELEMENT_CONTAINING_FOOTER"));
+ */
+ ;(function(window){
 		'use strict';
 		var footerOBJ = false;
 		function $footer(){
@@ -27,9 +32,9 @@
 					return footerOBJ;
 				}
 			}
-		function footer(){/********* a->footerElement **********/		
+		function footer(){		
 			}
-		footer.prototype.init = function(a){
+		footer.prototype.init = function(a){/********* a->footerElement **********/
 				this.footer = a;
 				this.set();
 				this.addEvents();
